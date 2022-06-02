@@ -1,5 +1,5 @@
 #include<cassert>
-//al añadir la libreria cassert, podremos utilizar el assert
+//al aÃ±adir la libreria cassert, podremos utilizar el assert
 
 #include<iostream>
 int main(){
@@ -23,8 +23,10 @@ int main(){
 	assert ((true or false ) and true );
 	assert (((true or false) and false ) == false);	
 	
-	// valores char (caracteres )
-		
+	// valores char (caracteres ) 
+	assert ('A'+' '== 'a')	;
+	assert ('A'+' '== '97')	;
+
 	assert ('a'=='a');
 	assert ('a'!='b');
 	assert ('a'!='A');
